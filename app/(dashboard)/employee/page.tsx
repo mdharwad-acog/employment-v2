@@ -12,7 +12,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { DailyTimeLog } from "@/components/employee/daily-time-log";
 import { WeeklySummary } from "@/components/employee/weekly-summary";
-import { FileText } from "lucide-react";
+import { Award, FileText } from "lucide-react";
 import Link from "next/link";
 
 export default async function EmployeeDashboard() {
@@ -79,7 +79,6 @@ export default async function EmployeeDashboard() {
           </Button>
         </Link>
       </div>
-
       {/* Time Tracking Section */}
       <div className="grid gap-6 md:grid-cols-2">
         <WeeklySummary employeeId={session.employee_id} />
@@ -88,7 +87,6 @@ export default async function EmployeeDashboard() {
           assignments={assignmentsWithProjects}
         />
       </div>
-
       {/* Allocation Overview */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card>
@@ -130,7 +128,6 @@ export default async function EmployeeDashboard() {
           </CardContent>
         </Card>
       </div>
-
       {/* Projects List */}
       <Card>
         <CardHeader>
@@ -167,6 +164,25 @@ export default async function EmployeeDashboard() {
               </p>
             )}
           </div>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader>
+          <CardTitle>Quick Actions</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-2">
+          <Link href="/employee/reports/new">
+            <Button className="w-full" variant="outline">
+              <FileText className="h-4 w-4 mr-2" />
+              Submit Weekly Report
+            </Button>
+          </Link>
+          <Link href="/employee/skills">
+            <Button className="w-full" variant="outline">
+              <Award className="h-4 w-4 mr-2" />
+              Manage Skills
+            </Button>
+          </Link>
         </CardContent>
       </Card>
     </div>

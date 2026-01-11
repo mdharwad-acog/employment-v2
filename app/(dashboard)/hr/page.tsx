@@ -7,6 +7,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { formatCurrency } from "@/lib/utils";
+import Link from "next/link";
+import { Award, FileText, Search } from "lucide-react";
 
 export default async function HRDashboard() {
   const employees = mockDB.getEmployees();
@@ -52,7 +54,6 @@ export default async function HRDashboard() {
           Resource allocation overview and metrics
         </p>
       </div>
-
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <Card>
           <CardHeader>
@@ -116,7 +117,44 @@ export default async function HRDashboard() {
           </CardContent>
         </Card>
       </div>
+      // Add navigation cards
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <Link href="/hr/reports">
+          <Card className="hover:shadow-md transition-shadow cursor-pointer">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <FileText className="h-5 w-5" />
+                Reports Dashboard
+              </CardTitle>
+              <CardDescription>View all employee reports</CardDescription>
+            </CardHeader>
+          </Card>
+        </Link>
 
+        <Link href="/hr/skills">
+          <Card className="hover:shadow-md transition-shadow cursor-pointer">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Award className="h-5 w-5" />
+                Skills Catalog
+              </CardTitle>
+              <CardDescription>Manage organization skills</CardDescription>
+            </CardHeader>
+          </Card>
+        </Link>
+
+        <Link href="/hr/search">
+          <Card className="hover:shadow-md transition-shadow cursor-pointer">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Search className="h-5 w-5" />
+                Resource Search
+              </CardTitle>
+              <CardDescription>Find employees by skills</CardDescription>
+            </CardHeader>
+          </Card>
+        </Link>
+      </div>
       <Card>
         <CardHeader>
           <CardTitle>Allocation Distribution</CardTitle>

@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { getSession } from "@/lib/session";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Award, FileText, Search } from "lucide-react";
 
 export default async function DashboardLayout({
   children,
@@ -18,6 +19,9 @@ export default async function DashboardLayout({
     HR: [
       { href: "/hr", label: "Dashboard" },
       { href: "/hr/employees", label: "Employees" },
+      { href: "/hr/reports", label: "Reports", icon: FileText },
+      { href: "/hr/skills", label: "Skills Catalog", icon: Award },
+      { href: "/hr/search", label: "Resource Search", icon: Search },
     ],
     PM: [
       { href: "/pm", label: "Dashboard" },
@@ -28,7 +32,11 @@ export default async function DashboardLayout({
       { href: "/hr", label: "HR View" },
       { href: "/pm", label: "PM View" },
     ],
-    Employee: [{ href: "/employee", label: "Dashboard" }],
+    Employee: [
+      { href: "/employee", label: "Dashboard" },
+      { href: "/employee/reports", label: "My Reports", icon: FileText },
+      { href: "/employee/skills", label: "My Skills", icon: Award },
+    ],
   };
 
   return (
