@@ -1,0 +1,44 @@
+[
+  {
+    "id": "dtl_001",
+    "employeeId": "EMP001",
+    "logDate": "2026-01-06",
+    "dayOfWeek": "Monday",
+    "projects": [
+      {
+        "projectId": "C042",
+        "hoursLogged": 6.5,
+        "taskDescription": "Implemented user authentication module"
+      },
+      {
+        "projectId": "P001",
+        "hoursLogged": 1.5,
+        "taskDescription": "Code review for dashboard components"
+      }
+    ],
+    "totalHours": 8.0,
+    "createdAt": "2026-01-06T18:30:00Z",
+    "updatedAt": "2026-01-06T18:30:00Z"
+  },
+  {
+    "id": "dtl_002",
+    "employeeId": "EMP001",
+    "logDate": "2026-01-07",
+    "dayOfWeek": "Tuesday",
+    "projects": [
+      {
+        "projectId": "C042",
+        "hoursLogged": 7.0,
+        "taskDescription": "Built API endpoints for time tracking"
+      },
+      {
+        "projectId": "P001",
+        "hoursLogged": 1.0,
+        "taskDescription": "Fixed bugs in reports module"
+      }
+    ],
+    "totalHours": 8.0,
+    "createdAt": "2026-01-07T18:15:00Z",
+    "updatedAt": "2026-01-07T18:15:00Z"
+  }
+]

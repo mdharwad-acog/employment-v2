@@ -108,3 +108,46 @@ export interface SessionData {
   employee_id: string | null;
   isLoggedIn: boolean;
 }
+
+export interface DailyTimeLog {
+  id: string;
+  employeeId: string;
+  logDate: string;
+  dayOfWeek: "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday";
+  projects: {
+    projectId: string;
+    hoursLogged: number;
+    taskDescription: string;
+  }[];
+  totalHours: number;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface Report {
+  id: string;
+  employeeId: string;
+  reportType: "Weekly" | "Daily";
+  reportDate: string;
+  weekStartDate?: string;
+  weekEndDate?: string;
+  content: string;
+  status: "Draft" | "Submitted";
+  submittedAt?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface WeeklySummary {
+  employeeId: string;
+  weekStartDate: string;
+  weekEndDate: string;
+  totalHours: number;
+  projectBreakdown: {
+    projectId: string;
+    projectName: string;
+    totalHours: number;
+    tasks: string[];
+  }[];
+  dailyLogs: DailyTimeLog[];
+}

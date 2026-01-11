@@ -1,0 +1,15 @@
+[
+  {
+    "id": "rpt_001",
+    "employeeId": "EMP001",
+    "reportType": "Weekly",
+    "reportDate": "2026-01-10",
+    "weekStartDate": "2026-01-06",
+    "weekEndDate": "2026-01-10",
+    "content": "# Weekly Report\n\n**Week:** Jan 6 - Jan 10, 2026\n\n**Total Hours:** 40.0 hours\n\n## Time Breakdown\n\n### Project Alpha (C042)\n- **Hours:** 32.0\n- **Tasks:**\n  - Implemented authentication module\n  - Built API endpoints\n  - Database integration\n\n### Internal Tools (P001)\n- **Hours:** 8.0\n- **Tasks:**\n  - Code reviews\n  - Bug fixes\n  - Documentation updates\n\n## Accomplishments\n\n- Successfully completed authentication module ahead of schedule\n- Fixed 12 critical bugs in reports system\n- Mentored 2 interns on React best practices\n\n## Challenges\n\n- Integration testing delays due to environment setup issues\n- Need better documentation for API endpoints\n\n## Next Week's Goals\n\n- Deploy authentication module to staging\n- Complete reports dashboard UI\n- Write unit tests for new features",
+    "status": "Submitted",
+    "submittedAt": "2026-01-10T17:00:00Z",
+    "createdAt": "2026-01-10T16:30:00Z",
+    "updatedAt": "2026-01-10T17:00:00Z"
+  }
+]
