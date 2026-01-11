@@ -1,0 +1,30 @@
+[
+  {
+    "id": "user_001",
+    "email": "hr@company.com",
+    "password": "hr123",
+    "role": "HR",
+    "employee_id": "EMP001"
+  },
+  {
+    "id": "user_002",
+    "email": "pm@company.com",
+    "password": "pm123",
+    "role": "PM",
+    "employee_id": "EMP002"
+  },
+  {
+    "id": "user_003",
+    "email": "ceo@company.com",
+    "password": "ceo123",
+    "role": "Leadership",
+    "employee_id": "EMP003"
+  },
+  {
+    "id": "user_004",
+    "email": "dev@company.com",
+    "password": "dev123",
+    "role": "Employee",
+    "employee_id": "EMP004"
+  }
+]

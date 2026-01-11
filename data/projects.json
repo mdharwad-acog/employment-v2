@@ -1,0 +1,58 @@
+[
+  {
+    "project_id": "C001",
+    "project_code": "C",
+    "project_name": "FinTech Mobile App",
+    "client_name": "ABC Bank",
+    "description": "Mobile banking application development",
+    "status": "Active",
+    "start_date": "2024-06-01",
+    "end_date": "2026-03-31",
+    "budget_cap": 5000000,
+    "strategic_importance": 9,
+    "created_at": "2024-05-15T00:00:00Z",
+    "updated_at": "2024-05-15T00:00:00Z"
+  },
+  {
+    "project_id": "P001",
+    "project_code": "P",
+    "project_name": "Internal CRM Platform",
+    "client_name": null,
+    "description": "Customer relationship management system",
+    "status": "Active",
+    "start_date": "2024-09-01",
+    "end_date": null,
+    "budget_cap": null,
+    "strategic_importance": 8,
+    "created_at": "2024-08-20T00:00:00Z",
+    "updated_at": "2024-08-20T00:00:00Z"
+  },
+  {
+    "project_id": "C002",
+    "project_code": "C",
+    "project_name": "E-commerce Platform",
+    "client_name": "Retail Corp",
+    "description": "Full-stack e-commerce solution",
+    "status": "Active",
+    "start_date": "2024-10-01",
+    "end_date": "2026-06-30",
+    "budget_cap": 3500000,
+    "strategic_importance": 7,
+    "created_at": "2024-09-10T00:00:00Z",
+    "updated_at": "2024-09-10T00:00:00Z"
+  },
+  {
+    "project_id": "M001",
+    "project_code": "M",
+    "project_name": "Marketing Website Redesign",
+    "client_name": null,
+    "description": "Company website refresh",
+    "status": "Planning",
+    "start_date": "2026-02-01",
+    "end_date": "2026-04-30",
+    "budget_cap": null,
+    "strategic_importance": 5,
+    "created_at": "2025-12-01T00:00:00Z",
+    "updated_at": "2025-12-01T00:00:00Z"
+  }
+]

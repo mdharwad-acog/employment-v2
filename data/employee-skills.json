@@ -1,0 +1,112 @@
+[
+  {
+    "id": "es_001",
+    "employee_id": "emp_001",
+    "skill_id": "sk_002",
+    "proficiency": "expert",
+    "years_experience": 5,
+    "last_used": "2025-01-10",
+    "notes": "Led 10+ React projects",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-10T00:00:00Z"
+  },
+  {
+    "id": "es_002",
+    "employee_id": "emp_001",
+    "skill_id": "sk_001",
+    "proficiency": "advanced",
+    "years_experience": 4,
+    "last_used": "2025-01-10",
+    "notes": "Daily use in all projects",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-10T00:00:00Z"
+  },
+  {
+    "id": "es_003",
+    "employee_id": "emp_001",
+    "skill_id": "sk_004",
+    "proficiency": "expert",
+    "years_experience": 3,
+    "last_used": "2025-01-10",
+    "notes": "Built 5+ Next.js applications",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-10T00:00:00Z"
+  },
+  {
+    "id": "es_004",
+    "employee_id": "emp_002",
+    "skill_id": "sk_007",
+    "proficiency": "expert",
+    "years_experience": 6,
+    "last_used": "2025-01-08",
+    "notes": "Python specialist",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-08T00:00:00Z"
+  },
+  {
+    "id": "es_005",
+    "employee_id": "emp_002",
+    "skill_id": "sk_008",
+    "proficiency": "advanced",
+    "years_experience": 4,
+    "last_used": "2025-01-08",
+    "notes": "Multiple Django projects",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-08T00:00:00Z"
+  },
+  {
+    "id": "es_006",
+    "employee_id": "emp_003",
+    "skill_id": "sk_018",
+    "proficiency": "expert",
+    "years_experience": 7,
+    "last_used": "2025-01-09",
+    "notes": "Enterprise Java applications",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-09T00:00:00Z"
+  },
+  {
+    "id": "es_007",
+    "employee_id": "emp_003",
+    "skill_id": "sk_019",
+    "proficiency": "expert",
+    "years_experience": 5,
+    "last_used": "2025-01-09",
+    "notes": "Spring Boot microservices",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-09T00:00:00Z"
+  },
+  {
+    "id": "es_008",
+    "employee_id": "emp_004",
+    "skill_id": "sk_009",
+    "proficiency": "advanced",
+    "years_experience": 4,
+    "last_used": "2025-01-10",
+    "notes": "AWS certified",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-10T00:00:00Z"
+  },
+  {
+    "id": "es_009",
+    "employee_id": "emp_004",
+    "skill_id": "sk_010",
+    "proficiency": "expert",
+    "years_experience": 5,
+    "last_used": "2025-01-10",
+    "notes": "Docker expert",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-10T00:00:00Z"
+  },
+  {
+    "id": "es_010",
+    "employee_id": "emp_005",
+    "skill_id": "sk_023",
+    "proficiency": "expert",
+    "years_experience": 6,
+    "last_used": "2025-01-10",
+    "notes": "Senior UX designer",
+    "added_date": "2024-06-15T00:00:00Z",
+    "updated_at": "2025-01-10T00:00:00Z"
+  }
+]

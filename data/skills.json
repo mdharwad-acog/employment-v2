@@ -1,0 +1,177 @@
+[
+  {
+    "id": "sk_001",
+    "name": "TypeScript",
+    "category": "Programming Languages",
+    "description": "Statically typed superset of JavaScript",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_002",
+    "name": "React",
+    "category": "Frontend Frameworks",
+    "description": "JavaScript library for building user interfaces",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_003",
+    "name": "Node.js",
+    "category": "Backend Technologies",
+    "description": "JavaScript runtime built on Chrome's V8 engine",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_004",
+    "name": "Next.js",
+    "category": "Frontend Frameworks",
+    "description": "React framework with server-side rendering",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_005",
+    "name": "PostgreSQL",
+    "category": "Databases",
+    "description": "Advanced open-source relational database",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_006",
+    "name": "MongoDB",
+    "category": "Databases",
+    "description": "NoSQL document-oriented database",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_007",
+    "name": "Python",
+    "category": "Programming Languages",
+    "description": "High-level programming language",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_008",
+    "name": "Django",
+    "category": "Backend Frameworks",
+    "description": "High-level Python web framework",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_009",
+    "name": "AWS",
+    "category": "Cloud Platforms",
+    "description": "Amazon Web Services cloud platform",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_010",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "Containerization platform",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_011",
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "description": "Container orchestration system",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_012",
+    "name": "GraphQL",
+    "category": "APIs",
+    "description": "Query language for APIs",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_013",
+    "name": "REST API",
+    "category": "APIs",
+    "description": "RESTful API design and implementation",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_014",
+    "name": "Git",
+    "category": "Version Control",
+    "description": "Distributed version control system",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_015",
+    "name": "Tailwind CSS",
+    "category": "CSS Frameworks",
+    "description": "Utility-first CSS framework",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_016",
+    "name": "Vue.js",
+    "category": "Frontend Frameworks",
+    "description": "Progressive JavaScript framework",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_017",
+    "name": "Angular",
+    "category": "Frontend Frameworks",
+    "description": "Platform for building web applications",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_018",
+    "name": "Java",
+    "category": "Programming Languages",
+    "description": "Object-oriented programming language",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_019",
+    "name": "Spring Boot",
+    "category": "Backend Frameworks",
+    "description": "Java-based framework for building applications",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_020",
+    "name": "Redis",
+    "category": "Databases",
+    "description": "In-memory data structure store",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_021",
+    "name": "Machine Learning",
+    "category": "AI/ML",
+    "description": "Algorithms and statistical models for AI",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_022",
+    "name": "TensorFlow",
+    "category": "AI/ML",
+    "description": "Machine learning framework",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_023",
+    "name": "UI/UX Design",
+    "category": "Design",
+    "description": "User interface and experience design",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_024",
+    "name": "Figma",
+    "category": "Design Tools",
+    "description": "Collaborative design tool",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "sk_025",
+    "name": "CI/CD",
+    "category": "DevOps",
+    "description": "Continuous Integration and Deployment",
+    "created_at": "2024-01-01T00:00:00Z"
+  }
+]
